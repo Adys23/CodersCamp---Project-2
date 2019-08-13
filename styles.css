@@ -1,6 +1,12 @@
 body{
     text-align: center;
 }
+nav{
+    background-color: #112d4e;
+}
+a{
+    color: white;
+}
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
@@ -171,8 +177,8 @@ body{
 .btn{
     width: 350px;
     margin: 20px;
-    background-color: #3f72af;
+    background-color: #112d4e;
 }
 .btn:hover {
-    background-color: #112d4e;
+    background-color: #3f72af;
 }
