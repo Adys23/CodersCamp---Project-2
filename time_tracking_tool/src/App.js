@@ -1,24 +1,15 @@
 import React from 'react';
-import './App.css';
-import TopNavbar from './navbar';
+import TopNavbar from './TopNavbar';
+import TabSelector from './TabSelector';
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <nav className="TopNavbar"></nav>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-    </div>
-  );
+      <div className="App">
+        <TopNavbar />
+        <TabSelector />
+      </div>
+
+  )
 }
 
 export default App;
