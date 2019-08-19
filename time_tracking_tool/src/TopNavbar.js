@@ -8,10 +8,10 @@ class TopNavbar extends React.Component {
                 <Navbar.Brand href="#home">Time Tracking Tool</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-sm-2">
-                <Nav.Link href="#">Log in</Nav.Link>
-                <Nav.Link href="#">Settings</Nav.Link>
-                </Nav>
+                    <Nav className="mr-sm-2">
+                        <Nav.Link href="#">Log in</Nav.Link>
+                        <Nav.Link href="#">Settings</Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         )
