@@ -31,7 +31,7 @@ class NewEmployeeForm extends React.Component {
                     </Form.Group>
                     <fieldset>
                     <Form.Group as={Row}>
-                        <Form.Label as="contractTypeChecker" column sm={2}>
+                        <Form.Label as="FormHorizontalRadio" column sm={2}>
                             Type of contract
                         </Form.Label>
                             <Col sm={10}>
